@@ -37,7 +37,9 @@ console.log(result);
 
 
 function areaOfACircle(radius) {
-    // TODO: Place your code here
+  var r = radius * radius;
+  var area = Math.PI * r;
+  return area;
 }
 
 var result = areaOfACircle(2);
@@ -58,3 +60,37 @@ console.log(result);
 // should display 5;
 
 //-------------------------------
+function isXEvenlyDivisibleByY(x, y) {
+    // TODO: Place your code here
+}
+
+var result = isXEvenlyDivisibleByY(99, 3);
+console.log(result);
+// displays true
+
+
+
+//-----------------------
+function countVowels(word) {
+    // TODO: Place your code here
+}
+
+var result = countVowels("stealing");
+console.log(result);
+// displays 3
+
+
+
+//---------------------------------
+function findWdi(givenArray){
+  for(var i=0; i<givenArray.length; i++){
+    if(givenArray[i] ==='wdi'){
+      return true;
+    }
+  }
+
+  else{
+    return false;
+  }
+
+   }
